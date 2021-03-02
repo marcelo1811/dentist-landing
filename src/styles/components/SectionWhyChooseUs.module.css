@@ -1,0 +1,57 @@
+.SectionWhyChooseUsContainer {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--light-gray);
+}
+
+.SectionWhyChooseUsContainer .SectionTitle {
+  margin-bottom: 3rem;
+}
+
+.SectionWhyChooseUsContainer .SectionTitle h3 {
+  margin-bottom: 1rem;
+}
+.SectionWhyChooseUsContainer .SectionTitle span {
+  color: var(--blue-dark);
+  position: relative;
+  padding-left: 30px;
+}
+
+.SectionWhyChooseUsContainer .SectionTitle span::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 0;
+  top: 12px;
+  background: var(--blue-dark);
+}
+
+.SectionWhyChooseUsContainer p {
+  margin-top: 1.5rem;
+}
+
+.SectionWhyChooseUsContainer ul {
+  margin-top: 2rem;
+  list-style-position: inside;
+  position: relative;
+}
+
+.SectionWhyChooseUsContainer ul {
+  list-style: none;
+}
+
+.SectionWhyChooseUsContainer ul li {
+  margin-bottom: 1rem;
+}
+
+.SectionWhyChooseUsContainer ul li::before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: var(--background-gradient);
+  transform: rotate(45deg);
+  margin-right: 1rem;
+}

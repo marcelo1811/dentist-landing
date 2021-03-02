@@ -1,26 +1,27 @@
-.SectionAboutContainer {
+.SectionHeroContainer {
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--light-gray);
   height: calc(100vh - var(--navbar-height));
+  padding-top: var(--navbar-height);
 }
 
-.HeroContet {
+.HeroContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.HeroContet * {
+.HeroContent * {
   padding: 1rem 0;
 }
 
-.HeroContet h1 span {
+.HeroContent h1 span {
   color: var(--blue-dark)
 }
 
-.HeroContet button {
+.HeroContent button {
   background: var(--background-gradient);
   color: white;
   border-radius: 30px;

@@ -15,4 +15,5 @@
 
 .SingleBoxContainer:hover {
   background: var(--background-gradient);
+  color: var(--white);
 }
