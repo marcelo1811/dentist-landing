@@ -21,7 +21,7 @@
 }
 
 .HeroContet button {
-  background: linear-gradient(to right, var(--blue-dark), var(--blue-light));
+  background: var(--background-gradient);
   color: white;
   border-radius: 30px;
   width: fit-content;

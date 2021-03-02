@@ -1,6 +1,6 @@
-import styles from '../styles/components/SectionAbout.module.css';
+import styles from '../styles/components/SectionHero.module.css';
 
-export function SectionAbout() {
+export function SectionHero() {
   return (
     <div className={styles.SectionAboutContainer}>
       <div className={styles.HeroContet}>

@@ -1,0 +1,18 @@
+.SingleBoxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 5px 30px 5px 5px;
+}
+
+.SingleBoxContainer h3 {
+  margin: 1rem;
+}
+
+.SingleBoxContainer:hover {
+  background: var(--background-gradient);
+}
