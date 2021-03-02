@@ -1,0 +1,29 @@
+.HeaderContainer {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.HeaderContainer * {
+  margin: 0 1rem;
+}
+
+.LinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LinksContainer div a:hover {
+  color: var(--blue-dark);
+}
+
+/* Appointment button */
+.LinksContainer > a {
+  color: var(--blue-dark);
+  border: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 8px 30px;
+}
