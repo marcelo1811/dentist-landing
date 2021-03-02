@@ -6,13 +6,15 @@
 
 :root {
   --white:#fff;
-  --background: #f2f3f5;
+  --background: #FFFFFF;
+  --light-gray: #F9FAFF;
   --gray-line: #dcdde0;
   --text: #666666;
   --text-highlight: #b3b9ff;
   --title: #2e384d;
   --blue-dark: #0072ff;
   --blue-light: #00c6ff;
+  --navbar-height: 5rem;
 }
 
 @media(max-width: 1080px) {

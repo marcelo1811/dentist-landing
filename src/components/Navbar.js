@@ -1,6 +1,6 @@
-import styles from '../styles/components/Header.module.css'
+import styles from '../styles/components/Navbar.module.css'
 
-export function Header() {
+export function Navbar() {
   return (
     <div className={styles.HeaderContainer}>
       <h1>Logo</h1>

@@ -1,0 +1,30 @@
+.SectionAboutContainer {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--light-gray);
+  height: calc(100vh - var(--navbar-height));
+}
+
+.HeroContet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HeroContet * {
+  padding: 1rem 0;
+}
+
+.HeroContet h1 span {
+  color: var(--blue-dark)
+}
+
+.HeroContet button {
+  background: linear-gradient(to right, var(--blue-dark), var(--blue-light));
+  color: white;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-style: none;
+}

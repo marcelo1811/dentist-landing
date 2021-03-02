@@ -1,11 +1,13 @@
 import Head from 'next/head'
-import { Header } from '../components/Header'
+import { Navbar } from '../components/Navbar'
+import { SectionAbout } from '../components/SectionAbout'
 import styles from '../styles/pages/Home.module.css'
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <SectionAbout />
     </div>
   )
 }
