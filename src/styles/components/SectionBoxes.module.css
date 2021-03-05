@@ -1,6 +1,13 @@
 .SectionBoxesContainer {
   display: flex;
-  padding: 2rem;
+  flex-wrap: wrap;
+  padding: 5rem 2rem;
   justify-content: space-around;
   align-items: center;
+}
+
+.SectionBoxesContainer div {
+  flex: 1 0 25%;
+  min-width: 250px;
+  padding: 1rem;
 }

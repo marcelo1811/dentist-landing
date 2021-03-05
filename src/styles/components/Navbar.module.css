@@ -19,9 +19,17 @@
   justify-content: space-between;
 }
 
-.LinksContainer div a:hover {
+.NavItems {
+  display: flex;
+  
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+}
+
+.NavItems a:hover {
   color: var(--blue-dark);
 }
+
 
 /* Appointment button */
 .LinksContainer > a {
@@ -30,4 +38,16 @@
   border-style: solid;
   border-radius: 30px;
   padding: 8px 30px;
+}
+
+
+/* TODO: show other links */
+@media all and (max-width: 768px) {
+  .HeaderContainer {
+    justify-content: space-between;
+  }
+
+  .NavItems {
+    display: none;
+  }
 }

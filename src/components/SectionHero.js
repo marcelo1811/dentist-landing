@@ -16,7 +16,9 @@ export function SectionHero() {
       </div>
       <div className={styles.HeroImage}>
         {/* TODO: ADD IMAGE */}
-        <h1>Imagem legal</h1>
+        <div className={styles.HeroImage}>
+          Imagem legal
+        </div>
       </div>
     </div>
   )

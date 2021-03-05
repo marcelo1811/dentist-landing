@@ -5,7 +5,7 @@ export function Navbar() {
     <div className={styles.HeaderContainer}>
       <h1>Logo</h1>
       <div className={styles.LinksContainer}>
-        <div>
+        <div className={styles.NavItems}>
           <a href=''>About</a>
           <a href=''>Department</a>
           <a href=''>Home</a>

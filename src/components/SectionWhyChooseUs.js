@@ -5,7 +5,7 @@ export function SectionWhyChooseUs() {
     <div className={styles.SectionWhyChooseUsContainer}>
       <div>
         {/* TODO: ADD IMAGE */}
-        <h3>Imagem</h3>
+        <div className={styles.WhyChooseUsImage}>Imagem</div>
       </div>
       <div>
         <div className={styles.SectionTitle}>
