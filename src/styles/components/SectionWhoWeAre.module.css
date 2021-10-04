@@ -1,0 +1,17 @@
+.SectionWhoWeAreContainer {
+  background-color: green;
+  display: flex;
+  padding-left: 200px;
+}
+
+.SectionWhoWeAreContainer .RowBoxes {
+  transform: rotate(45deg);
+  margin: 20px;
+}
+
+.SectionWhoWeAreContainer .BoxImage {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
